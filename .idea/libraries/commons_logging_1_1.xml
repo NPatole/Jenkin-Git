@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="commons-logging-1.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/testlink-api-client-20091130/lib/commons-logging-1.1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/testlink-api-client-20091130/lib/ws-commons-util-1.0.2.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/testlink-api-client-20091130/lib/xmlrpc-client-3.1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/testlink-api-client-20091130/lib/xmlrpc-common-3.1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/testlink-api-client-20091130/lib/junit.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/testlink-api-client-20091130/lib/xmlrpc-client-3.1-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/testlink-api-client-20091130/lib/xmlrpc-common-3.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

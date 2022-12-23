@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="WebAutomation" duration-ms="550732" started-at="2019-03-13T21:25:35Z" finished-at="2019-03-13T21:34:46Z">
+    <groups>
+    </groups>
+    <test name="Automation" duration-ms="550732" started-at="2019-03-13T21:25:35Z" finished-at="2019-03-13T21:34:46Z">
+      <class name="LoginTest">
+        <test-method status="PASS" signature="initBaseTest()[pri:0, instance:LoginTest@2133c8f8]" name="initBaseTest" is-config="true" duration-ms="15213" started-at="2019-03-14T02:55:20Z" finished-at="2019-03-14T02:55:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBaseTest -->
+        <test-method status="PASS" signature="brforeClass()[pri:0, instance:LoginTest@2133c8f8]" name="brforeClass" is-config="true" duration-ms="1028" started-at="2019-03-14T02:55:35Z" finished-at="2019-03-14T02:55:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brforeClass -->
+        <test-method status="PASS" signature="test01()[pri:0, instance:LoginTest@2133c8f8]" name="test01" duration-ms="8276" started-at="2019-03-14T02:55:36Z" finished-at="2019-03-14T02:55:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01 -->
+        <test-method status="PASS" signature="test02()[pri:0, instance:LoginTest@2133c8f8]" name="test02" duration-ms="19988" started-at="2019-03-14T02:55:44Z" finished-at="2019-03-14T02:56:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02 -->
+        <test-method status="PASS" signature="test03()[pri:0, instance:LoginTest@2133c8f8]" name="test03" duration-ms="521402" started-at="2019-03-14T02:56:04Z" finished-at="2019-03-14T03:04:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test03 -->
+        <test-method status="PASS" signature="driveQuit()[pri:0, instance:LoginTest@2133c8f8]" name="driveQuit" is-config="true" duration-ms="0" started-at="2019-03-14T03:04:46Z" finished-at="2019-03-14T03:04:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driveQuit -->
+      </class> <!-- LoginTest -->
+    </test> <!-- Automation -->
+  </suite> <!-- WebAutomation -->
+</testng-results>

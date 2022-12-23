@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [WebAutomation]">
+  <listeners>
+    <listener class-name="Core.CustomListener"/>
+  </listeners>
+  <test name="Automation(failed)">
+    <classes>
+      <class name="LoginTest">
+        <methods>
+          <include name="driveQuit"/>
+          <include name="brforeClass"/>
+          <include name="initBaseTest"/>
+          <include name="test03"/>
+        </methods>
+      </class> <!-- LoginTest -->
+    </classes>
+  </test> <!-- Automation(failed) -->
+</suite> <!-- Failed suite [WebAutomation] -->
