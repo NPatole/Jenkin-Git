@@ -6,12 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="WebAutomation (1)" />
+        <module name="WebAutomation" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="SeleniumPracticalExamples" target="1.8" />
-      <module name="WebAutomation" target="1.8" />
+      <module name="WebAutomation (1)" target="1.8" />
+      <module name="WebAutomation (2)" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

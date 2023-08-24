@@ -3,12 +3,11 @@
 <suite name="WebAutomation">
     <listeners>
         <listener class-name="Core.CustomListener"></listener>
-
     </listeners>
 
     <test name="Automation">
         <classes>
-            <class name="LoginTest"/>
+            <class name="HomeScreenTest"/>
         </classes>
     </test>
 

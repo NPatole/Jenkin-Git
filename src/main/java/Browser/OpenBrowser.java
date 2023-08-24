@@ -1,12 +1,13 @@
 package Browser;
 
 import Core.Constants;
+import Core.ExtentManager;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
-public class OpenBrowser {
+public class OpenBrowser extends ExtentManager {
     public static WebDriver Driver;
     public static void initBrowser(String browser){
 
