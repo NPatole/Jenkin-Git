@@ -20,8 +20,7 @@ public class OpenBrowser extends ExtentManager {
         } else if (browser.equalsIgnoreCase("Chrome")) {
 
 //            WebDriverManager.chromedriver().setup();
-            // System.getProperty("user.dir") + "\\InputData\\testimage.jpg"
-         //   System.setProperty("webdriver.chrome.driver", Constants.ChromeExePath);
+            System.setProperty("webdriver.chrome.driver", Constants.ChromeExePath);
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--remote-allow-origins=*");
             // Instantiate a ChromeDriver class.
