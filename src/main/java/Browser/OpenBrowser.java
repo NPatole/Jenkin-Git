@@ -5,6 +5,7 @@ import Core.ExtentManager;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
 public class OpenBrowser extends ExtentManager {
@@ -20,10 +21,11 @@ public class OpenBrowser extends ExtentManager {
 
 //            WebDriverManager.chromedriver().setup();
             // System.getProperty("user.dir") + "\\InputData\\testimage.jpg"
-            System.setProperty("webdriver.chrome.driver", Constants.ChromeExePath);
-
+         //   System.setProperty("webdriver.chrome.driver", Constants.ChromeExePath);
+            ChromeOptions options = new ChromeOptions();
+            options.addArguments("--remote-allow-origins=*");
             // Instantiate a ChromeDriver class.
-            Driver = new ChromeDriver();
+            Driver = new ChromeDriver(options);
 
         }
 
